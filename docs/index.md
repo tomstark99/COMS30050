@@ -1,18 +1,17 @@
-# Supplementary materials to COMS30050: Applied Datascience
+# Supplementary materials to COMS30050: Applied Data Science
 
-## Disrtibution of targets
+## Distribution of targets
 
 <p align="center">
     <img style="width:75%" src="images/Data%20Preparation/targets_distribution.png">
 </p>
-<!-- ![Disrtibution of targets](images/Data%20Preparation/targets_distribution.png) -->
+
 *Distribution of targets. Data distribution of targets except for NaN values.*
 
 ## Correlation Matrix and *p*-value: Additional Results
 
-| what is going on | sdf |
+|  |  |
 | - | - |
-| sdf | ds |
 | ![](images/correlation%20matrix%20sampled.png) | ![](images/p%20value%20matrix%20sampled.png)
 
 <img style="float:left;width:50%" src="images/correlation%20matrix%20sampled.png">
@@ -52,7 +51,6 @@
 <p align="center">
     <img src="images/t-sne_total.png"/>
 </p>
-<!-- ![t-sne_total](images/t-sne_total.png) -->
 
 *Results after performing t-SNE on **X**s and each **y** on the total version of the data-set.*
 
@@ -61,10 +59,8 @@
 </p>
 
 *Results after performing t-SNE on **X**s and each **y** on the sampled version of the data-set.*
-<!-- ![t-sne_sampled](images/t-sne_sampled.png) -->
 
-
-## Data Modeling: Hyper-parameter search
+## Data Modelling: Hyper-parameter search
 
 | Hyper-parameters | Search boundary |
 | - | - |
