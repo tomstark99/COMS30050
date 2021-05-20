@@ -2,40 +2,67 @@
 
 ## Disrtibution of targets
 
-![Disrtibution of targets](images/Data%20Preparation/targets_distribution.png)
+<p align="center">
+    <img style="width:75%" src="images/Data%20Preparation/targets_distribution.png">
+</p>
+<!-- ![Disrtibution of targets](images/Data%20Preparation/targets_distribution.png) -->
 *Distribution of targets. Data distribution of targets except for NaN values.*
 
 ## Correlation Matrix and *p*-value: Additional Results
 
-<img style="float:left;width:50%" src="images/correlation%20matrix%20sampled.png"> 
+| what is going on | sdf |
+| - | - |
+| sdf | ds |
+| ![](images/correlation%20matrix%20sampled.png) | ![](images/p%20value%20matrix%20sampled.png)
+
+<img style="float:left;width:50%" src="images/correlation%20matrix%20sampled.png">
 <img style="float:right;width:50%" src="images/p%20value%20matrix%20sampled.png">
 
-*Correlation matrix between screen time variables and mental health variables with sampled data-set. **Left**: The darker the cell, the more the correlation between two variables. **Bottom**: The lighter the cell, the more the significance of the corresponding correlation value.*
+*Correlation matrix between screen time variables and mental health variables with sampled data-set. **Left**: The darker the cell, the more the correlation between two variables. **Right**: The lighter the cell, the more the significance of the corresponding correlation value.*
 
 ## PCA with Kernels: Additional Results
+
+### `dep_thoughts`
 
 ![PCA_dep_thoughts](images/PCA_dep_thoughts.png)
 *Top: Total data. Bottom: Sampled data. This figure shows the relationship between Xs and Y (`dep_thoughts`). 0: no depression and 1: depression.*
 
+### `has_dep_daig`
+
 ![PCA_has_dep_diag](images/PCA_has_dep_diag.png)
 *Top: Total data. Bottom: Sampled data. This figure shows the relationship between Xs and Y (`has_dep_diag`). 0: no depression and 1: depression.*
+
+### `prim_diag`
 
 ![PCA_prim_diag](images/PCA_prim_diag.png)
 *Top: Total data. Bottom: Sampled data. This figure shows the relationship between Xs and Y (`prim_diag`). 0: no depression and 1: depression.*
 
+### `secd_diag`
+
 ![PCA_secd_diag](images/PCA_secd_diag.png)
 *Top: Total data. Bottom: Sampled data. This figure shows the relationship between Xs and Y (`secd_score`). 0: no depression and 1: depression.*
+
+### `panic_score`
 
 ![PCA_panic_score](images/PCA_panic_score.png)
 *Top: Total data. Bottom: Sampled data. This figure shows the relationship between Xs and Y (`panic_score`). 0: no depression and 1: depression.*
 
 ## t-SNE: Additional Results
 
-![t-sne_total](images/t-sne_total.png)
+<p align="center">
+    <img src="images/t-sne_total.png"/>
+</p>
+<!-- ![t-sne_total](images/t-sne_total.png) -->
+
 *Results after performing t-SNE on **X**s and each **y** on the total version of the data-set.*
 
-![t-sne_sampled](images/t-sne_sampled.png)
+<p align="center">
+    <img src="images/t-sne_sampled.png"/>
+</p>
+
 *Results after performing t-SNE on **X**s and each **y** on the sampled version of the data-set.*
+<!-- ![t-sne_sampled](images/t-sne_sampled.png) -->
+
 
 ## Data Modeling: Hyper-parameter search
 
