@@ -64,6 +64,8 @@
 
 ## Data Modelling: Hyper-parameter search
 
+### SVM Hyper-parameters
+
 | Hyper-parameters | Search boundary |
 | - | - |
 | `gamma` | `[int(x) for x in np.logspace(-4, -1, 4)]` |
@@ -71,6 +73,8 @@
 | `kernel` | `['linear', 'poly', 'rbf', 'sigmoid']` |
 
 *A hyper-parameter search for SVM*
+
+### Logistic Regression Hyper-parameters
 
 | Hyper-parameters | Search boundary |
 | - | - |
@@ -81,6 +85,8 @@
 
 *A hyper-parameter search for Logistic Regression*
 
+### KNN Hyper-parameters
+
 | Hyper-parameters | Search boundary |
 | - | - |
 | `weights` | `['uniform', 'distance']` |
@@ -89,6 +95,8 @@
 | `n_neighbours` | `[int(x) for x in np.linspace(2, 50, 10)]` |
 
 *A hyper-parameter search for KNN*
+
+### Random Forest Hyper-parameters
 
 | Hyper-parameters | Search boundary |
 | - | - |
