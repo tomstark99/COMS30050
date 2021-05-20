@@ -10,12 +10,14 @@
 
 ## Correlation Matrix and *p*-value: Additional Results
 
-|  |  |
+| Screen Time and Mental Health Correlation Matrix | Screen Time and Mental Health *p*-values |
 | - | - |
 | ![](images/correlation%20matrix%20sampled.png) | ![](images/p%20value%20matrix%20sampled.png)
 
-<img style="float:left;width:50%" src="images/correlation%20matrix%20sampled.png">
-<img style="float:right;width:50%" src="images/p%20value%20matrix%20sampled.png">
+<!-- <div>
+    <img style="float:left;width:45%" src="images/correlation%20matrix%20sampled.png">
+    <img style="float:right;width:45%" src="images/p%20value%20matrix%20sampled.png">
+</div> -->
 
 *Correlation matrix between screen time variables and mental health variables with sampled data-set. **Left**: The darker the cell, the more the correlation between two variables. **Right**: The lighter the cell, the more the significance of the corresponding correlation value.*
 
